@@ -20,6 +20,5 @@ function loadSecondScript() {
     let jsFile = document.createElement('script');
     jsFile.type = "text/javascript";
     jsFile.src = "js/randomizer1.js";
-    jsFile.defer = true;
     document.head.appendChild(jsFile);
 }
