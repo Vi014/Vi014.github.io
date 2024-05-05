@@ -1,10 +1,10 @@
 let strings = [
-    "Harvard sentence randomizer", 
-    "Language: ", 
-    "Shuffle: ", 
-    "Lists", 
-    "Sentences", 
-    "Original", 
+    "Рандомайзер Гарвардскых предложений", 
+    "Язык: ", 
+    "Перетасовай: ", 
+    "Списков", 
+    "Предложений", 
+    "Оригинал", 
     "https://files.stroyinf.ru/Data/95/9523.pdf", 
-    "List"
+    "Список"
 ];
