@@ -12,6 +12,17 @@ foreach(string line in lines)
     }
 }
 
+// initial parsing for the russian PDF, imperfect as the PDF is nigh impossible to properly parse
+/*
+for(int i = 1; i < lines.Length / 2; i++) 
+{
+    if(lines[i] != "" && lines[i-1] != "" && Char.IsLetter(lines[i][0]) && Char.IsNumber(lines[i-1][0]))
+    {
+        parsedLines.Add("\"" + lines[i] + ".\"");
+    }
+} 
+*/
+
 // sentence file
 List<string> sentLines = new List<string>();
 
