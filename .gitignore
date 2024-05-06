@@ -2,3 +2,4 @@ bin/
 obj/
 net8.0/
 js/harvardSentences/parser/*.txt
+js/harvardSentences/parser/*.js

@@ -1,4 +1,5 @@
 ﻿string[] lines = File.ReadAllLines("lines.txt");
+string langName = "english";
 List<string> parsedLines = new List<string>();
 
 // initial parsing
@@ -25,7 +26,7 @@ foreach(string line in parsedLines)
 sentLines[^1] = sentLines.ElementAt(sentLines.Count - 1).Remove(sentLines.ElementAt(sentLines.Count - 1).Length - 1);
 sentLines.Add("];");
 
-File.WriteAllLines("sent.txt", sentLines);
+File.WriteAllLines($"{langName}Sent.js", sentLines);
 
 // list file
 List<string> listLines = new List<string>();
@@ -54,4 +55,4 @@ for(int i = 0; i < parsedLines.Count; i++)
 listLines[^1] = listLines.ElementAt(listLines.Count - 1).Remove(listLines.ElementAt(listLines.Count - 1).Length - 1);
 listLines.Add("];");
 
-File.WriteAllLines("list.txt", listLines);
+File.WriteAllLines($"{langName}List.js", listLines);
