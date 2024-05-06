@@ -1,1 +1,4 @@
-js/harvardSentences/temp/
+bin/
+obj/
+net8.0/
+js/harvardSentences/parser/*.txt
