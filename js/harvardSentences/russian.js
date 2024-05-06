@@ -5,6 +5,6 @@ let strings = [
     "Списков", 
     "Предложений", 
     "Оригинал", 
-    "https://files.stroyinf.ru/Data/95/9523.pdf", 
+    "https://files.stroyinf.ru/Data/95/9523.pdf#page=184", 
     "Список"
 ];
